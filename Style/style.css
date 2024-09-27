@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root
+{
+
+    --body-color: #15151B;
+    --letter-color: #FFFFFF;
+    --line-color: #15151B;
+    --aside-color: #030309;
+    --header-color: #1A1A1A;
+
+}
+
+body
+{
+
+    background-color: var(--body-color);
+    color: var(--letter-color);
+    display: inline;
+
+}
+
+main
+{
+
+    display: flex;
+
+}
+
+header{
+
+    display: flex;
+    position: fixed;
+    top: 2%;
+    left: 90%;
+    width: calc(100vw - 22em);
+
+}
+
+.language-selector
+{
+
+    background-color: var(--header-color);
+    padding: 20px;
+    border-radius: 15%;
+    cursor: pointer;
+
+}
+
+h1
+{
+
+    font-size: 41px;
+    margin-bottom: 0.25em;
+
+}
+
+.front-end-name
+{
+
+    font-weight: 300;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+
+.aside
+{
+
+    background-color: var(--aside-color);
+    width: 22em;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+ 
+}
+
+.person
+{
+
+    margin: 1.8125em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile-photo
+{
+
+    border-radius: 50%;
+    width: 10.875em;
+    height: 10.6875em;
+
+}
+
+.nav__ul
+{
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+    margin-bottom: 3.125em;
+    cursor: pointer;
+
+}
+
+hr
+{
+
+    height: 3px;
+    width: 508%;
+    background-color: var(--line-color);
+    border: none;
+    position: relative;
+    left: -203%;
+
+}
+
+.image-links
+{
+
+    display: flex;
+    width: 39%;
+    position: absolute;
+    left: 30%;
+    gap: 2.5em;
+
+}
+
+.Github-Icon
+{
+
+    width: 3em;
+    height: auto;
+
+}
+
+.Linkedin-icon
+{
+
+    width: 3em;
+    height: auto;
+
+}
+
+section
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 42px;
+    margin-left: 1.5em;
+
+}
+
+.section__p1
+{
+
+    font-weight: bold;
+
+}
+
+.section__p3
+{
+
+    font-weight: 100;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+
