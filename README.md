@@ -7,4 +7,4 @@ Next steps:
 - portuguese translate;
 - Info.
 
-  You can see it in portfoliodoug-cyan.vercel.app
+  You can see it in the link: portfoliodoug-cyan.vercel.app
