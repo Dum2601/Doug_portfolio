@@ -68,11 +68,12 @@ h1
 
     background-color: var(--aside-color);
     width: 22em;
-    height: 98vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: sticky;
+    justify-content: center;
  
 }
 
@@ -171,40 +172,8 @@ section
 
 }
 
-
-/* Responsividade para telas maiores que 1200px */
-@media (max-width: 1200px) 
-{
-    main {
-        flex-direction: column;
-    }
-    aside {
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    section {
-        font-size: 1.25rem;
-    }
-}
-
-/* Responsividade para telas maiores que 768px */
-@media (max-width: 768px) 
-{
-    h1 {
-        font-size: 2rem;
-    }
-    .profile-photo {
-        width: 8em;
-        height: 8em;
-    }
-    section {
-        font-size: 1rem;
-    }
-}
-
 /* Responsividade para dispositivos móveis (telas menores que 576px) */
-@media (max-width: 576px) 
+@media (max-width: 1000px) 
 {
     * {
         margin: 0;
@@ -219,10 +188,10 @@ section
         justify-content: center;
         width: 100%;
         height: 100vh; /* Faz o body ocupar a altura total da tela */
-        overflow: hidden; /* Impede o scroll além do conteúdo */
     }
 
     main {
+        margin-top: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -230,10 +199,11 @@ section
     }
 
     header {
-        left: 50%;
+        position: absolute;
+        left: 45%;
         transform: translateX(-50%);
         width: 100%;
-        justify-content: center;
+        justify-content: right;
         margin: 0;
         padding: 0;
     }
@@ -263,7 +233,7 @@ section
     .image-links {
         justify-content: center;
         margin-top: 1rem;
-        top: 130%;
+        top: 120%;
     }
 
     h1 {
@@ -281,4 +251,13 @@ section
         align-items: center;
         justify-content: center;
     }
+}
+
+
+@media (max-width: 450px) {
+
+    main {
+        margin-top: 10%;
+    }
+
 }
