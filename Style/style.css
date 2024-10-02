@@ -171,3 +171,114 @@ section
 
 }
 
+
+/* Responsividade para telas maiores que 1200px */
+@media (max-width: 1200px) 
+{
+    main {
+        flex-direction: column;
+    }
+    aside {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    section {
+        font-size: 1.25rem;
+    }
+}
+
+/* Responsividade para telas maiores que 768px */
+@media (max-width: 768px) 
+{
+    h1 {
+        font-size: 2rem;
+    }
+    .profile-photo {
+        width: 8em;
+        height: 8em;
+    }
+    section {
+        font-size: 1rem;
+    }
+}
+
+/* Responsividade para dispositivos móveis (telas menores que 576px) */
+@media (max-width: 576px) 
+{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Garante que o padding e as bordas sejam incluídos nas dimensões do elemento */
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh; /* Faz o body ocupar a altura total da tela */
+        overflow: hidden; /* Impede o scroll além do conteúdo */
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .aside 
+    {
+        background-color: transparent;
+        width: 100%;
+        height: auto; /* Ajusta a altura ao conteúdo */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .person {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+    }
+
+    .profile-photo {
+        width: 6em;
+        height: 6em;
+    }
+
+    .image-links {
+        justify-content: center;
+        margin-top: 1rem;
+        top: 130%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
