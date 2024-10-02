@@ -6,3 +6,5 @@ Next steps:
 
 - portuguese translate;
 - Info.
+
+  You can see it in portfoliodoug-cyan.vercel.app
