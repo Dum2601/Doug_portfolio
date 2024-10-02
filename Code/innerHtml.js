@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function ()
     let section = document.getElementById("section");
     let languageSelector = document.getElementById("header");
 
+    
     // Inserting HTML for navigation and section
     nav.innerHTML = `
         <ul class="nav__ul" id="ul">
